@@ -1,0 +1,22 @@
+{
+  "name": "poppnode",
+  "version": "1.0.0",
+  "description": "Server for Popp, made with nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Daniel Dyrseth",
+  "license": "ISC"
+}
